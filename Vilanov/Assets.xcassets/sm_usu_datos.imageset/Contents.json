@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "sm_usu_datos.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "sm_usu_datos@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "sm_usu_datos@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "AVAssetCatalogCreator",
+    "version" : 1
+  }
+}

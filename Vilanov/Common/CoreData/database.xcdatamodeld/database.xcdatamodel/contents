@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D109" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDNotification" representedClassName="CDNotification" syncable="YES" codeGenerationType="class">
+        <attribute name="activo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="anio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fehca" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_noticia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo_noticia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDNotification" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
+</model>

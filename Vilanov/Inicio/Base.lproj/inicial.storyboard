@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JxB-Wr-m4C">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Bienvenido-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="bienvenido" id="BYZ-38-t0r" customClass="bienvenido" customModule="Vilanov" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inmovila_logo" translatesAutoresizingMaskIntoConstraints="NO" id="BIR-1X-enp">
+                                <rect key="frame" x="430" y="1275" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNs-pk-Og8">
+                                <rect key="frame" x="296" y="619" width="313" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaK-5u-HQ4">
+                                        <rect key="frame" x="13.984008940441868" y="72" width="283.00000000000006" height="60.999999999999915"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Convierte lo excepcional
+en un estilo de vida</string>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="22"/>
+                                        <color key="textColor" red="0.010932848788797855" green="0.15556439757347107" blue="0.23349988460540771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vilanova_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HW7-ed-LLp">
+                                        <rect key="frame" x="19" y="0.0" width="280" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstview" destination="8bC-Xf-vdC" id="GV6-JI-SSk"/>
+                        <outlet property="inmologo" destination="BIR-1X-enp" id="MAW-6s-zO8"/>
+                        <outlet property="secondview" destination="QNs-pk-Og8" id="Cau-Wk-U69"/>
+                        <outlet property="textologo" destination="LaK-5u-HQ4" id="eli-SD-a3a"/>
+                        <outlet property="vilalogo" destination="HW7-ed-LLp" id="4ug-fH-mjz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.19999999999999" y="132.68365817091455"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="frV-qa-b8J">
+            <objects>
+                <viewController storyboardIdentifier="view_2" id="JxB-Wr-m4C" customClass="Menu" customModule="Vilanov" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qlr-iW-HLJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vjc-2K-bvG">
+                                <rect key="frame" x="0.0" y="1306" width="1024" height="60"/>
+                                <subviews>
+                                    <stackView contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="lLw-yK-bRn">
+                                        <rect key="frame" x="0.0" y="5" width="1024" height="55"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxN-7s-iCt" customClass="ButtonImage" customModule="Vilanov" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="254" height="55"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                                <inset key="titleEdgeInsets" minX="-40" minY="30" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Inicio" image="inicio_logo">
+                                                    <color key="titleColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="inicio:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="uOx-WY-zfl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fm-Ja-x6M" customClass="ButtonImage" customModule="Vilanov" customModuleProvider="target">
+                                                <rect key="frame" x="257" y="0.0" width="253.5" height="55"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
+                                                <inset key="titleEdgeInsets" minX="-40" minY="30" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Buscar" image="buscar_logo">
+                                                    <color key="titleColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="goToSearchNotificationsAction:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="LGn-xT-w72"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCg-Nc-zEY" customClass="ButtonImage" customModule="Vilanov" customModuleProvider="target">
+                                                <rect key="frame" x="513.5" y="0.0" width="254" height="55"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
+                                                <inset key="titleEdgeInsets" minX="-32" minY="30" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="27" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Notificaciones" image="notificaciones_logo">
+                                                    <color key="titleColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="goToNotificationsAction:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="4PG-uC-VCR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anB-tW-BWS" customClass="ButtonImage" customModule="Vilanov" customModuleProvider="target">
+                                                <rect key="frame" x="770.5" y="0.0" width="253.5" height="55"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
+                                                <inset key="titleEdgeInsets" minX="-40" minY="30" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Perfil" image="perfil_logo">
+                                                    <color key="titleColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="perfil:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="FoV-ak-08s"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.62352941176470589" green="0.62352941176470589" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="GPs-xH-d2W"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1ba-Kr-Qbw"/>
+                                    <constraint firstAttribute="trailing" secondItem="lLw-yK-bRn" secondAttribute="trailing" id="4CJ-mA-hch"/>
+                                    <constraint firstAttribute="bottom" secondItem="lLw-yK-bRn" secondAttribute="bottom" id="AJo-lh-Bm8"/>
+                                    <constraint firstItem="lLw-yK-bRn" firstAttribute="leading" secondItem="vjc-2K-bvG" secondAttribute="leading" id="Xzz-Gs-YFa"/>
+                                    <constraint firstItem="lLw-yK-bRn" firstAttribute="top" secondItem="vjc-2K-bvG" secondAttribute="top" constant="5" id="orf-qz-ZaP"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbD-FL-5C6">
+                                <rect key="frame" x="464" y="28.5" width="96.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaI-qJ-LZM">
+                                <rect key="frame" x="10" y="25" width="25" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="J03-MF-xhr"/>
+                                    <constraint firstAttribute="height" constant="31" id="QxE-aF-rR4"/>
+                                </constraints>
+                                <state key="normal" image="boton_return"/>
+                                <connections>
+                                    <action selector="inicio:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="QcN-25-fe1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkH-UZ-9aV">
+                                <rect key="frame" x="0.0" y="457" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu_noticias"/>
+                                <connections>
+                                    <action selector="noticias_click:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="lqg-Kj-anc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OR-kn-Dc5">
+                                <rect key="frame" x="98" y="457" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu_servicios"/>
+                                <connections>
+                                    <action selector="mprontoservicios:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="bCJ-n1-Ohm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1D-rJ-hRd">
+                                <rect key="frame" x="206" y="457" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu_invitaciones"/>
+                                <connections>
+                                    <action selector="accesos_click:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="NRq-qj-cwk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gM-Hq-SrI">
+                                <rect key="frame" x="304" y="457" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu_club"/>
+                                <connections>
+                                    <action selector="mpronto:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="r2q-HU-WWl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnS-Mj-UsU">
+                                <rect key="frame" x="0.0" y="555" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu_config"/>
+                                <connections>
+                                    <action selector="ajustes_click:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="cqh-e1-8i5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8k0-WQ-cek">
+                                <rect key="frame" x="98" y="555" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu_administracion"/>
+                                <connections>
+                                    <action selector="mprontoadm:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="wMe-8h-l7U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REF-lk-Xs9">
+                                <rect key="frame" x="206" y="555" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_not_inmovila"/>
+                                <connections>
+                                    <action selector="sm_notclick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="LQK-5b-fvP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWU-mM-5Jj">
+                                <rect key="frame" x="20" y="670" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_usu_datos"/>
+                                <connections>
+                                    <action selector="sm_userClick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="gYd-hb-wLW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGl-E3-uC7">
+                                <rect key="frame" x="118" y="670" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_usu_usuarios"/>
+                                <connections>
+                                    <action selector="sm_userClick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="XM5-36-92P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crI-J9-jci">
+                                <rect key="frame" x="216" y="670" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_usu_fpago"/>
+                                <connections>
+                                    <action selector="sm_userClick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="OSd-Lt-9ou"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgM-Kc-Mw7">
+                                <rect key="frame" x="314" y="670" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_usu_historial"/>
+                                <connections>
+                                    <action selector="sm_userClick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="dLh-tp-I9K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pi-yz-dH9">
+                                <rect key="frame" x="412" y="670" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_usu_consumo"/>
+                                <connections>
+                                    <action selector="sm_notclick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="q8M-pQ-i8h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o89-k8-p6e">
+                                <rect key="frame" x="304" y="555" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_not_avances"/>
+                                <connections>
+                                    <action selector="sm_notclick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="Q4C-cF-vh6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbs-zL-OHn">
+                                <rect key="frame" x="413" y="555" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_not_urb"/>
+                                <connections>
+                                    <action selector="mprontonoturb:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="AXy-Zh-9lS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iy2-H3-1Gz">
+                                <rect key="frame" x="511" y="543" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sm_not_interes"/>
+                                <connections>
+                                    <action selector="sm_notclick:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="SKk-c2-BgM"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_inicio" translatesAutoresizingMaskIntoConstraints="NO" id="iTZ-dt-2Wd">
+                                <rect key="frame" x="457" y="628" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q6B-JH-JBu">
+                                <rect key="frame" x="0.0" y="1366" width="1024" height="0.0"/>
+                                <color key="backgroundColor" red="0.94902855157852173" green="0.94900804758071899" blue="0.94901210069656372" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6P-BM-yMY">
+                                <rect key="frame" x="570.5" y="36.5" width="12" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="Ljx-91-hRo"/>
+                                    <constraint firstAttribute="width" constant="12" id="Opm-33-ear"/>
+                                </constraints>
+                                <state key="normal" image="ico_down_ini"/>
+                            </button>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4w-E7-Ak4">
+                                <rect key="frame" x="422" y="593" width="180" height="180"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MUY PRONTO" translatesAutoresizingMaskIntoConstraints="NO" id="5ee-54-M7P">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muy pronto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPr-Lf-eDX">
+                                        <rect key="frame" x="29.5" y="76" width="121" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="24"/>
+                                        <color key="textColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="5ee-54-M7P" firstAttribute="centerX" secondItem="u4w-E7-Ak4" secondAttribute="centerX" id="0HE-Xi-bdq"/>
+                                    <constraint firstItem="5ee-54-M7P" firstAttribute="top" secondItem="u4w-E7-Ak4" secondAttribute="top" id="197-6n-QTW"/>
+                                    <constraint firstItem="iPr-Lf-eDX" firstAttribute="centerY" secondItem="u4w-E7-Ak4" secondAttribute="centerY" id="6pd-JE-x8w"/>
+                                    <constraint firstAttribute="height" constant="180" id="F9f-9f-9iX"/>
+                                    <constraint firstAttribute="bottom" secondItem="5ee-54-M7P" secondAttribute="bottom" id="Gwo-tE-Vrq"/>
+                                    <constraint firstAttribute="trailing" secondItem="5ee-54-M7P" secondAttribute="trailing" id="HCC-B9-S2K"/>
+                                    <constraint firstItem="5ee-54-M7P" firstAttribute="centerY" secondItem="u4w-E7-Ak4" secondAttribute="centerY" id="W1K-5f-Ekc"/>
+                                    <constraint firstAttribute="width" constant="180" id="WTS-gL-BWY"/>
+                                    <constraint firstItem="iPr-Lf-eDX" firstAttribute="centerX" secondItem="u4w-E7-Ak4" secondAttribute="centerX" id="enH-rW-ktH"/>
+                                    <constraint firstItem="5ee-54-M7P" firstAttribute="leading" secondItem="u4w-E7-Ak4" secondAttribute="leading" id="scg-2N-ErN"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mjr-88-9Ek">
+                                <rect key="frame" x="118" y="768" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="smicon_acc_invitados"/>
+                                <connections>
+                                    <action selector="sm_acc_invi_click:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="G8O-pL-zrI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c91-z3-BgX">
+                                <rect key="frame" x="20" y="768" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="smicon_acc_eventos"/>
+                                <connections>
+                                    <action selector="sm_acc_eve_click:" destination="JxB-Wr-m4C" eventType="touchUpInside" id="CBd-Ae-TBJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v6P-BM-yMY" firstAttribute="leading" secondItem="SbD-FL-5C6" secondAttribute="trailing" constant="10" id="4O0-T3-ux7"/>
+                            <constraint firstItem="SbD-FL-5C6" firstAttribute="centerX" secondItem="qlr-iW-HLJ" secondAttribute="centerX" id="63e-7t-Mek"/>
+                            <constraint firstItem="u4w-E7-Ak4" firstAttribute="centerY" secondItem="qlr-iW-HLJ" secondAttribute="centerY" id="6Ui-c3-BJA"/>
+                            <constraint firstItem="HaI-qJ-LZM" firstAttribute="leading" secondItem="WdH-Cu-tKp" secondAttribute="leading" constant="10" id="DcH-0P-bMZ"/>
+                            <constraint firstAttribute="trailing" secondItem="q6B-JH-JBu" secondAttribute="trailing" id="Eek-c3-Dcq"/>
+                            <constraint firstItem="u4w-E7-Ak4" firstAttribute="centerX" secondItem="qlr-iW-HLJ" secondAttribute="centerX" id="HcJ-hY-Ysc"/>
+                            <constraint firstItem="q6B-JH-JBu" firstAttribute="leading" secondItem="qlr-iW-HLJ" secondAttribute="leading" id="KLe-IS-sAM"/>
+                            <constraint firstItem="v6P-BM-yMY" firstAttribute="centerY" secondItem="SbD-FL-5C6" secondAttribute="centerY" id="RdU-Of-7oe"/>
+                            <constraint firstItem="vjc-2K-bvG" firstAttribute="leading" secondItem="WdH-Cu-tKp" secondAttribute="leading" id="So4-8g-biv"/>
+                            <constraint firstItem="SbD-FL-5C6" firstAttribute="centerY" secondItem="HaI-qJ-LZM" secondAttribute="centerY" id="YzV-Vi-ukC"/>
+                            <constraint firstAttribute="bottom" secondItem="q6B-JH-JBu" secondAttribute="bottom" id="bWz-gh-WQ9"/>
+                            <constraint firstItem="WdH-Cu-tKp" firstAttribute="bottom" secondItem="vjc-2K-bvG" secondAttribute="bottom" id="lTK-HH-3Ki"/>
+                            <constraint firstItem="HaI-qJ-LZM" firstAttribute="top" secondItem="WdH-Cu-tKp" secondAttribute="top" constant="5" id="mjw-QE-ncN"/>
+                            <constraint firstItem="WdH-Cu-tKp" firstAttribute="trailing" secondItem="vjc-2K-bvG" secondAttribute="trailing" id="o1O-UY-WNe"/>
+                            <constraint firstItem="q6B-JH-JBu" firstAttribute="top" secondItem="vjc-2K-bvG" secondAttribute="bottom" id="p0s-LC-B2a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WdH-Cu-tKp"/>
+                    </view>
+                    <connections>
+                        <outlet property="btn_return_menu" destination="HaI-qJ-LZM" id="Phw-MZ-9zC"/>
+                        <outlet property="img_mpronto" destination="5ee-54-M7P" id="pby-uB-fPI"/>
+                        <outlet property="menu_administracion" destination="8k0-WQ-cek" id="gLX-9b-UCx"/>
+                        <outlet property="menu_club" destination="5gM-Hq-SrI" id="coo-VC-R7J"/>
+                        <outlet property="menu_config" destination="qnS-Mj-UsU" id="LXG-cU-1TU"/>
+                        <outlet property="menu_invitaciones" destination="D1D-rJ-hRd" id="cYS-eO-bNt"/>
+                        <outlet property="menu_main" destination="iTZ-dt-2Wd" id="mbG-T9-EjM"/>
+                        <outlet property="menu_noti" destination="LCg-Nc-zEY" id="cLI-Km-L7M"/>
+                        <outlet property="menu_noticias" destination="zkH-UZ-9aV" id="TSl-yz-daL"/>
+                        <outlet property="menu_servicios" destination="7OR-kn-Dc5" id="foV-B6-YLu"/>
+                        <outlet property="sm1acc" destination="c91-z3-BgX" id="CoA-uH-hI3"/>
+                        <outlet property="sm1not" destination="REF-lk-Xs9" id="J0e-al-7EM"/>
+                        <outlet property="sm1usu" destination="XWU-mM-5Jj" id="dFX-XL-dBw"/>
+                        <outlet property="sm2acc" destination="Mjr-88-9Ek" id="Ge3-tU-wJZ"/>
+                        <outlet property="sm2not" destination="o89-k8-p6e" id="qDr-uB-LaJ"/>
+                        <outlet property="sm2usu" destination="aGl-E3-uC7" id="Pal-Dd-vRB"/>
+                        <outlet property="sm3not" destination="Rbs-zL-OHn" id="WAV-KX-KZI"/>
+                        <outlet property="sm3usu" destination="crI-J9-jci" id="eij-9m-kkO"/>
+                        <outlet property="sm4not" destination="iy2-H3-1Gz" id="VMH-BJ-Lpm"/>
+                        <outlet property="sm4usu" destination="CgM-Kc-Mw7" id="F19-yQ-c3z"/>
+                        <outlet property="sm5usu" destination="6Pi-yz-dH9" id="Pyt-ie-2dD"/>
+                        <outlet property="titulo" destination="SbD-FL-5C6" id="QIl-PG-jj9"/>
+                        <outlet property="view_mpronto" destination="u4w-E7-Ak4" id="Jbs-Eh-d3A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MiZ-5A-Jy5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="6ix-qt-5EE">
+                    <connections>
+                        <action selector="noticias_click:" destination="JxB-Wr-m4C" id="Yuu-N3-UHY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="o3D-PE-WHn">
+                    <connections>
+                        <action selector="sm_notclick:" destination="JxB-Wr-m4C" id="DjW-Aa-i07"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="794.24460431654677" y="130.6532663316583"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MUY PRONTO" width="260.5" height="260"/>
+        <image name="boton_return" width="31" height="43"/>
+        <image name="buscar_logo" width="30" height="31.5"/>
+        <image name="ico_down_ini" width="55" height="29"/>
+        <image name="inicio_logo" width="34.5" height="32.5"/>
+        <image name="inmovila_logo" width="218" height="80"/>
+        <image name="menu_administracion" width="155.5" height="155.5"/>
+        <image name="menu_club" width="155.5" height="155.5"/>
+        <image name="menu_config" width="155.5" height="155.5"/>
+        <image name="menu_inicio" width="182.5" height="182.5"/>
+        <image name="menu_invitaciones" width="155.5" height="155.5"/>
+        <image name="menu_noticias" width="155.5" height="155.5"/>
+        <image name="menu_servicios" width="155.5" height="155.5"/>
+        <image name="notificaciones_logo" width="30.5" height="30.5"/>
+        <image name="perfil_logo" width="28.5" height="28.5"/>
+        <image name="sm_not_avances" width="155" height="155"/>
+        <image name="sm_not_inmovila" width="155" height="155"/>
+        <image name="sm_not_interes" width="155" height="155"/>
+        <image name="sm_not_urb" width="155" height="155"/>
+        <image name="sm_usu_consumo" width="155" height="155"/>
+        <image name="sm_usu_datos" width="155" height="155"/>
+        <image name="sm_usu_fpago" width="155" height="155"/>
+        <image name="sm_usu_historial" width="155" height="155"/>
+        <image name="sm_usu_usuarios" width="155" height="155"/>
+        <image name="smicon_acc_eventos" width="83" height="83"/>
+        <image name="smicon_acc_invitados" width="83" height="83"/>
+        <image name="vilanova_logo" width="384" height="97.5"/>
+    </resources>
+</document>
